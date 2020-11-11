@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "yarn build:css && react-scripts build",
+    "build": "NODE_ENV=production yarn build:css && react-scripts build",
     "build:serve": "yarn build && npx serve -s build -l 4000",
     "build:css": "postcss src/styles/tailwind.scss -o src/styles/tailwind_generated.scss",
     "eject": "react-scripts eject",
