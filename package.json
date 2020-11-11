@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "yarn build:css && react-scripts build",
+    "build:serve": "yarn build && npx serve -s build -l 4000",
     "build:css": "postcss src/styles/tailwind.scss -o src/styles/tailwind_generated.scss",
     "eject": "react-scripts eject",
     "sort-package-json": "npx sort-package-json@1.30.0",

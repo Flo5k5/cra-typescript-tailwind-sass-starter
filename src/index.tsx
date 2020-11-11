@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/tailwind_generated.scss';
-import App from './components/App';
+import Seminarin from './components/Seminarin';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Seminarin />
   </React.StrictMode>,
   document.getElementById('root'),
 );
