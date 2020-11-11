@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cra-typescript-tailwind-sass-starter/static/css/main.9896f873.chunk.css",
+    "main.js": "/cra-typescript-tailwind-sass-starter/static/js/main.9cd4304f.chunk.js",
+    "main.js.map": "/cra-typescript-tailwind-sass-starter/static/js/main.9cd4304f.chunk.js.map",
+    "runtime-main.js": "/cra-typescript-tailwind-sass-starter/static/js/runtime-main.fd729763.js",
+    "runtime-main.js.map": "/cra-typescript-tailwind-sass-starter/static/js/runtime-main.fd729763.js.map",
+    "static/js/2.3e8e5d8b.chunk.js": "/cra-typescript-tailwind-sass-starter/static/js/2.3e8e5d8b.chunk.js",
+    "static/js/2.3e8e5d8b.chunk.js.map": "/cra-typescript-tailwind-sass-starter/static/js/2.3e8e5d8b.chunk.js.map",
+    "static/js/3.590e2fd1.chunk.js": "/cra-typescript-tailwind-sass-starter/static/js/3.590e2fd1.chunk.js",
+    "static/js/3.590e2fd1.chunk.js.map": "/cra-typescript-tailwind-sass-starter/static/js/3.590e2fd1.chunk.js.map",
+    "index.html": "/cra-typescript-tailwind-sass-starter/index.html",
+    "static/css/main.9896f873.chunk.css.map": "/cra-typescript-tailwind-sass-starter/static/css/main.9896f873.chunk.css.map",
+    "static/js/2.3e8e5d8b.chunk.js.LICENSE.txt": "/cra-typescript-tailwind-sass-starter/static/js/2.3e8e5d8b.chunk.js.LICENSE.txt",
+    "static/media/video.900cb2a3.png": "/cra-typescript-tailwind-sass-starter/static/media/video.900cb2a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd729763.js",
+    "static/js/2.3e8e5d8b.chunk.js",
+    "static/css/main.9896f873.chunk.css",
+    "static/js/main.9cd4304f.chunk.js"
+  ]
+}
