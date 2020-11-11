@@ -2,31 +2,14 @@
   "name": "test-prepacademy",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
-    "typescript": "^4.0.3",
-    "web-vitals": "^0.2.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "yarn build:css && react-scripts build",
+    "build:css": "postcss src/styles/tailwind.scss -o src/styles/tailwind_generated.scss",
+    "eject": "react-scripts eject",
+    "sort-package-json": "npx sort-package-json@1.30.0",
+    "start": "yarn watch:css & react-scripts start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "watch:css": "postcss src/styles/tailwind.scss -o src/styles/tailwind_generated.scss -w"
   },
   "browserslist": {
     "production": [
@@ -39,5 +22,32 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^9.0.0",
+    "node-sass": "^4.0.0",
+    "postcss-cli": "^8.2.0",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.9.6"
   }
 }
